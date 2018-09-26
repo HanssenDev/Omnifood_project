@@ -169,6 +169,11 @@ h1 {
 }
 
 
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+
 .icon-big {
     display: block;
     color: #e67e22;
@@ -194,9 +199,40 @@ h1 {
 
 /*---Favourite meals section styles---*/
 
+.section-meals {
+    padding: 0;
+}
 
 
+.meals-showcase {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    width: 100%;
+    
+}
 
+.meal-img {
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+}
+
+
+.meals-showcase img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+
+.meals-showcase img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+    
+}
 
 /*---How it works section styles---*/
 
