@@ -27,7 +27,7 @@ a {
     text-decoration: none;
 }
 
-/*Header styles*/
+/*---Header styles---*/
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero.jpg);
@@ -100,43 +100,74 @@ h1 {
 }
 
 
-/*Features styles*/
+.logo {
+    height: 100px;
+    width: auto;
+    float: left; 
+    margin-top: 20px;
+}
+
+
+.main-nav {
+    float: right;
+    margin-top: 60px;
+}
+
+.nav-links:link,
+.nav-links:visited {
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 40px;    
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    padding: 8px 0;
+}
+
+.nav-links:hover,
+.nav-links:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+
+
+/*---Features styles---*/
 
 
 
 
 
-/*Favourite meals section styles*/
+/*---Favourite meals section styles---*/
 
 
 
 
 
-/*How it works section styles*/
+/*---How it works section styles---*/
 
 
 
 
 
-/*Cities section styles*/
+/*---Cities section styles---*/
 
 
 
 
 
-/*Customer testimonials section styles*/
+/*---Customer testimonials section styles---*/
 
 
 
 
 
-/*Sign-up section styles*/
+/*---Sign-up section styles---*/
 
 
 
 
 
-/*Contact form styles*/
+/*---Contact form styles---*/
 
 
 
