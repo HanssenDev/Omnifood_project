@@ -48,6 +48,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -387,7 +388,67 @@ a.city-info a:active {
 
 /*---Customer testimonials section styles---*/
 
+.section-customers {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    
+}
 
+.section-customers h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 180%;
+    font-weight: 300;
+    color: #fff;
+}
+
+.section-customers h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: "";
+    width: 100px;
+    margin: 30px auto; 
+}
+    
+
+blockquote {
+    margin-top: 35px;
+    font-style: italic;
+    line-height: 145%;
+    padding: 2%;
+    position: relative;
+}
+
+blockquote:before {
+    content: "\201C";
+    display: block;
+    position: absolute;
+    font-size: 500%; 
+    top: 0;
+    left: -15px;
+}
+
+
+cite {
+    font-weight: 300;
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+    
+}
+
+
+cite img {
+    border-radius: 50%;
+    width: 15%;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
 
 
 
