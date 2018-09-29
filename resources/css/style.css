@@ -16,6 +16,7 @@ html {
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .row {
@@ -660,5 +661,9 @@ footer p {
 .ion-social-instagram:hover {
     color: #517fa4;
 }
+
+
+
+
 
 
